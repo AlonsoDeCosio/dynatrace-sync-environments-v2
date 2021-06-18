@@ -1,0 +1,26 @@
+{
+	"environments": [
+		{
+			"Environment": "PROD",
+			"url": "https://<ID>.live.dynatrace.com",
+			"token": "<token>"
+		}
+	],
+	"clusters": [
+		{
+			"Environment": "PROD",
+			"url": "https://<ID>.live.dynatrace.com",
+			"token": "<token>"
+		}
+	],
+	"api": [
+		{
+			"name": "AutoTags",
+			"endpoint": "/api/config/v1/autoTags"
+		},
+        {
+            "name": "Users",
+            "endpoint": "/api/v1.0/onpremise/users/"
+        }
+	]
+}
